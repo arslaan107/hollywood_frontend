@@ -5,6 +5,7 @@ import InputTxt from "../components/InputTxt";
 import { randomWord } from "../Word.js";
 import { Modal,Button } from 'react-bootstrap';
 import { withRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class Game extends React.Component {
   static defaultProps = {
@@ -146,9 +147,11 @@ class Game extends React.Component {
               <button className="button btn btn-primary" onClick={this.handleGuess}>
                 Guess
               </button>
+              <Link to="/">
               <button className="button btn btn-danger" onClick={this.resetButton}>
                 Finish
               </button>
+              </Link>
             </div>
           </div>
           {/* <button className="btn btn-info" onClick={this.resetButton}>
