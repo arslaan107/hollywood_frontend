@@ -1,0 +1,41 @@
+.Header{
+    width: 100%;
+    height: 450px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main{
+width: 100%;
+height:100vh;
+background-color: #EADEB8;
+}
+
+.container{
+    max-width: 100%;
+    height:100%;
+    padding: 0 50px 0 50px;
+}
+.welcometext{
+    margin-left:34px;
+}
+
+.icon{
+    width:30px;
+    height:30px;
+}
+
+.inputContain{
+    display:flex;
+    flex-direction: row;
+}
+
+.headerTitle{
+    font-size:50px;
+    font-weight:bold;
+}
+
+.btn{
+    margin:0 px !important;
+}
