@@ -147,11 +147,9 @@ class Game extends React.Component {
               <button className="button btn btn-primary" onClick={this.handleGuess}>
                 Guess
               </button>
-              <Link to="/">
               <button className="button btn btn-danger" onClick={this.resetButton}>
-                Finish
+                Reset
               </button>
-              </Link>
             </div>
           </div>
           {/* <button className="btn btn-info" onClick={this.resetButton}>
